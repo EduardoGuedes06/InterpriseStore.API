@@ -22,3 +22,15 @@ C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\Business\o
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\refint\Business.dll
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.pdb
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\ref\Business.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\bin\Debug\net6.0\Business.deps.json
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\bin\Debug\net6.0\Business.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\bin\Debug\net6.0\Business.pdb
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\refint\Business.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\Business.pdb
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\Business\obj\Debug\net6.0\ref\Business.dll

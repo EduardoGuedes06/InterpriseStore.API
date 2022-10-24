@@ -1,0 +1,37 @@
+﻿@model IEnumerable<InterpriseStore.ViewModels.CategoriaViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Categorias";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p supress-by-claim-name="Categoria" supress-by-claim-value="Adicionar">
+    <a class="btn btn-info" asp-action="Create">Nova Categoria</a>
+</p>
+
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>           
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td class="text-right">
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id"><spam class="fa fa-search"></spam>Detalhes</a>
+                    <a class="btn btn-warning" asp-controller="Categoria" supress-by-claim-name="Categoria" supress-by-claim-value="Editar" asp-action="Edit" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt">Editar</spam></a>
+                    <a class="btn btn-danger" asp-controller="Categoria" supress-by-claim-name="Categoria" supress-by-claim-value="Excluir"  asp-action="Delete" asp-route-id="@item.Id"><spam class="fa fa-trash">Excluir</spam></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

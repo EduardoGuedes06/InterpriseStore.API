@@ -1,16 +1,10 @@
 ﻿
-    using Microsoft.EntityFrameworkCore;
-    using Business.Models;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Reflection.Emit;
-    using System.Text;
-    using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Business.Models;
 
-    namespace Data.context
-    {
-        public class MeuDbContext : DbContext
+namespace Data.context
+{
+    public class MeuDbContext : DbContext
         {
             public MeuDbContext(DbContextOptions<MeuDbContext> options) : base(options) { }
 

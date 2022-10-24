@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "src\Business\Bu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterpriseStore", "src\InterpriseStore\InterpriseStore.csproj", "{6B567835-B608-4604-BB45-716C9DC3AA0A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC", "src\MVC\MVC.csproj", "{05E3AD7D-D753-469E-89EF-4AA10B95DE5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6B567835-B608-4604-BB45-716C9DC3AA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B567835-B608-4604-BB45-716C9DC3AA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B567835-B608-4604-BB45-716C9DC3AA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05E3AD7D-D753-469E-89EF-4AA10B95DE5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E3AD7D-D753-469E-89EF-4AA10B95DE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E3AD7D-D753-469E-89EF-4AA10B95DE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E3AD7D-D753-469E-89EF-4AA10B95DE5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
