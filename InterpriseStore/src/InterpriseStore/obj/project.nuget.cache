@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dda49zrKoQNdNGaQ1n/A77tft0hdqq2Nawvyabg+JuWVtHl0zv80uJE4MFycLEtm8WJDNXgJ3dda2+hHhOOBAA==",
+  "dgSpecHash": "ejKps4QL5c1iiNgkbKMUUcLsUTB+T+nl2Au1S/wn0V3HgSAeyv2vGQpFpVCb70bB41FGICfG/Bv+ItO3twwGPw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\C#\\AmandaAPI\\InterpriseStore\\src\\InterpriseStore\\InterpriseStore.csproj",
+  "projectFilePath": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\InterpriseStore\\InterpriseStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

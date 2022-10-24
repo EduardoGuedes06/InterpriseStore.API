@@ -16,10 +16,10 @@ namespace Data.mappings
                     .HasColumnType("varchar(200)");
 
 
-                // 1 : N => Fornecedor : Produtos
-                builder.HasMany(f => f.Produtos)
-                    .WithOne(p => p.Categoria)
-                    .HasForeignKey(p => p.CategoriaId);
+            // 1 : N => Fornecedor : Produtos
+            builder.HasMany(f => f.Produtos)
+                .WithOne(p => p.Categoria)
+                .HasForeignKey(p => p.CategoriaId);
 
                 builder.ToTable("Categoria");
             }

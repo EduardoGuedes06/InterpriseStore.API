@@ -2,7 +2,7 @@
 using Business.Interfaces;
 using Business.Notificacoes;
 using Business.Services;
-using Data.context.Data;
+using Data.context;
 using Data.repository;
 using InterpriseStore.Extensions;
 

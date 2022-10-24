@@ -1,7 +1,7 @@
 
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
-using Data.context.Data;
+using Data.context;
 using InterpriseStore.Configuration;
 using Newtonsoft.Json.Serialization;
 using Newtonsoft.Json;

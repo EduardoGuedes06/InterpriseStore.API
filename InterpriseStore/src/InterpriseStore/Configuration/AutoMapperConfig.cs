@@ -9,11 +9,11 @@ namespace InterpriseStore.Configuration
         public AutomapperConfig()
         {
             CreateMap<Categoria, CategoriaViewModel>().ReverseMap();
-            CreateMap<ProdutoViewModel, Produto>();
+            CreateMap<ProdutoViewModel, Produto>().ReverseMap();
 
-            
 
-            
+
+
         }
     }
 }

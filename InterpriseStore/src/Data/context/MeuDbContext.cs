@@ -1,5 +1,4 @@
-﻿namespace Data.context
-{
+﻿
     using Microsoft.EntityFrameworkCore;
     using Business.Models;
     using System;
@@ -9,7 +8,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    namespace Data
+    namespace Data.context
     {
         public class MeuDbContext : DbContext
         {
@@ -58,4 +57,3 @@
         }
     }
 
-}

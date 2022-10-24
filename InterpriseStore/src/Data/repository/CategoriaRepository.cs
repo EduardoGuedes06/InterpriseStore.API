@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Business.Interfaces;
 using Business.Models;
-using Data.context.Data;
+using Data.context;
 
 namespace Data.repository
 {
