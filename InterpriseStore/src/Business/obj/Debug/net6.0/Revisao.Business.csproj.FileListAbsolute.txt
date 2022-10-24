@@ -1,0 +1,12 @@
+E:\Projetos\RevisaoApi\src\Revisao.Business\bin\Debug\net6.0\Revisao.Business.deps.json
+E:\Projetos\RevisaoApi\src\Revisao.Business\bin\Debug\net6.0\Revisao.Business.dll
+E:\Projetos\RevisaoApi\src\Revisao.Business\bin\Debug\net6.0\Revisao.Business.pdb
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.csproj.AssemblyReference.cache
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.AssemblyInfoInputs.cache
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.AssemblyInfo.cs
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.csproj.CoreCompileInputs.cache
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.dll
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\refint\Revisao.Business.dll
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\Revisao.Business.pdb
+E:\Projetos\RevisaoApi\src\Revisao.Business\obj\Debug\net6.0\ref\Revisao.Business.dll

@@ -1,0 +1,17 @@
+E:\Projetos\RevisaoApi\src\Revisao.Data\bin\Debug\net6.0\Revisao.Data.deps.json
+E:\Projetos\RevisaoApi\src\Revisao.Data\bin\Debug\net6.0\Revisao.Data.runtimeconfig.json
+E:\Projetos\RevisaoApi\src\Revisao.Data\bin\Debug\net6.0\Revisao.Data.dll
+E:\Projetos\RevisaoApi\src\Revisao.Data\bin\Debug\net6.0\Revisao.Data.pdb
+E:\Projetos\RevisaoApi\src\Revisao.Data\bin\Debug\net6.0\Revisao.Business.dll
+E:\Projetos\RevisaoApi\src\Revisao.Data\bin\Debug\net6.0\Revisao.Business.pdb
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.csproj.AssemblyReference.cache
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.AssemblyInfoInputs.cache
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.AssemblyInfo.cs
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.csproj.CoreCompileInputs.cache
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.csproj.CopyComplete
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.dll
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\refint\Revisao.Data.dll
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.pdb
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\Revisao.Data.genruntimeconfig.cache
+E:\Projetos\RevisaoApi\src\Revisao.Data\obj\Debug\net6.0\ref\Revisao.Data.dll
