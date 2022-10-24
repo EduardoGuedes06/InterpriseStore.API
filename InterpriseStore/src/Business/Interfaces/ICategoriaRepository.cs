@@ -10,6 +10,8 @@ namespace Business.Interfaces
     public interface ICategoriaRepository : IRepository<Categoria>
     {
         Task<Categoria> ObterCategoriaProduto(Guid id);
-        
+
+        Task<Categoria> ObterSomenteCategoria(Guid id);
+
     }
 }

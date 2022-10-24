@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Business.Models
+﻿namespace Business.Models
 {
     public class Categoria : Entity
     {

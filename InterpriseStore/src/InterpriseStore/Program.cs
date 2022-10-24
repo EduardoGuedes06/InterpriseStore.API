@@ -14,13 +14,10 @@ builder.Configuration
     .SetBasePath(builder.Environment.ContentRootPath)
     .AddJsonFile("appsettings.json", true, true)
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", true, true)
-
     .AddEnvironmentVariables();
 
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddIdentityConfig(builder.Configuration);
 
 builder.Services.AddDbContext<MeuDbContext>(options =>
 {
@@ -42,16 +39,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 });
 
-builder.Services.AddIdentityConfig(builder.Configuration);
-builder.Services.AddControllers(options =>
-{
-}).AddNewtonsoftJson(options =>
-{
-    options.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
-    options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-
-});
-
+builder.Services.AddApiConfig();
 builder.Services.AddSwaggerConfig();
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
@@ -60,17 +48,15 @@ builder.Services.ResolveDependencies();
 
 
 var app = builder.Build();
+var apiVersionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-app.UseAuthorization();
-app.UseAuthentication();
-app.UseHttpsRedirection();
-app.MapControllers();
-app.UseDeveloperExceptionPage();
+app.UseApiConfig(app.Environment);
+app.UseSwaggerConfig(apiVersionDescriptionProvider);
+
+//app.UseAuthorization();
+//app.UseAuthentication();
+//app.UseHttpsRedirection();
+//app.MapControllers();
+//app.UseDeveloperExceptionPage();
 
 app.Run();

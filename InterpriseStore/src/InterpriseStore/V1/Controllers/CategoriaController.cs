@@ -5,20 +5,21 @@ using Business.Intefaces;
 using Business.Interfaces;
 using Business.Models;
 using InterpriseStore.Controllers;
-using Business.Services;
-using Data.repository;
+using Microsoft.AspNetCore.Authorization;
 
-namespace Revisao.Api.Controllers
+namespace InterpriseStore.V1.Controllers
 {
 
-    [Route("api/categoria")]
+    [Authorize]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}/categorias")]
     public class CategoriaController : MainController
     {
         private readonly ICategoriaRepository _Categoriarepository;
         private readonly ICategoriaService _Categoriaservice;
         private IMapper _mapper;
-        
-        public CategoriaController(ICategoriaRepository categoriaRepository, ICategoriaService categoriaService, 
+
+        public CategoriaController(ICategoriaRepository categoriaRepository, ICategoriaService categoriaService,
             IMapper mapper, INotificador notificador, IUser user) : base(notificador, user)
         {
             _Categoriarepository = categoriaRepository;
@@ -26,6 +27,7 @@ namespace Revisao.Api.Controllers
             _mapper = mapper;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IEnumerable<CategoriaViewModel>> ObterTodos()
         {
@@ -35,18 +37,22 @@ namespace Revisao.Api.Controllers
 
 
         [HttpGet("{id:guid}")]
-        // [Authorize]
-        public async Task<ActionResult<ProdutoViewModel>> ObterpPorId(Guid id)
+        [Authorize]
+        public async Task<ActionResult<CategoriaViewModel>> ObterPorId(Guid id)
         {
-            var categoria = _mapper.Map<ProdutoViewModel>(await _Categoriarepository.ObterCategoriaProduto(id));
+            var categoria = _mapper.Map<CategoriaViewModel>(await _Categoriarepository.ObterCategoriaProduto(id));
 
             if (categoria == null) return NotFound();
 
-            return categoria;
+            await _Categoriarepository.ObterPorId(id);
+
+            return CostumResponse(categoria);
         }
 
 
+       
         [HttpPost]
+        [Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(CategoriaViewModel categoriaViewModel)
         {
             if (!ModelState.IsValid) return CostumResponse(ModelState);
@@ -56,7 +62,9 @@ namespace Revisao.Api.Controllers
             return CostumResponse(categoriaViewModel);
         }
 
+        
         [HttpPut("{id:guid}")]
+        [Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Atualizar(Guid id, CategoriaViewModel categoriaViewModel)
         {
             if (id != categoriaViewModel.Id)
@@ -72,10 +80,12 @@ namespace Revisao.Api.Controllers
             return CostumResponse(categoriaViewModel);
         }
 
+       
         [HttpDelete("{id:guid}")]
-        public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
+        [Authorize]
+        public async Task<ActionResult<CategoriaViewModel>> Excluir(Guid id)
         {
-            var categoriaViewModel = _mapper.Map<ProdutoViewModel>(await _Categoriarepository.ObterCategoriaProduto(id));
+            var categoriaViewModel = _mapper.Map<CategoriaViewModel>(await _Categoriarepository.ObterCategoriaProduto(id));
 
             if (categoriaViewModel == null) return NotFound();
 
@@ -83,11 +93,6 @@ namespace Revisao.Api.Controllers
 
             return CostumResponse(categoriaViewModel);
         }
-
-        
-
-
-
 
     }
 }

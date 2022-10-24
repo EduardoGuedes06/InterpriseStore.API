@@ -568,3 +568,4 @@ C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\Interprise
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\InterpriseStore\obj\Debug\net6.0\InterpriseStore.pdb
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\InterpriseStore\obj\Debug\net6.0\InterpriseStore.genruntimeconfig.cache
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\InterpriseStore\obj\Debug\net6.0\ref\InterpriseStore.dll
+C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\InterpriseStore\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

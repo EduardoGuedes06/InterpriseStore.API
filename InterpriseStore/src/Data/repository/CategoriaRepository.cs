@@ -17,5 +17,13 @@ namespace Data.repository
                 .Include(c => c.Produtos)
                 .FirstOrDefaultAsync(c => c.Id == id);
         }
+
+        public async Task<Categoria> ObterSomenteCategoria(Guid id)
+        {
+            return await Db.Categorias.AsNoTracking()
+                //.Include(c => c.Produtos)
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
+
     }
 }
