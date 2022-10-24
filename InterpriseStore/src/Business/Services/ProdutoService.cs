@@ -19,8 +19,7 @@ namespace Business.Services
 
         public async Task Adicionar(Produto produto)
         {
-            if (!ExecutarValidacao(new ProdutoValidation(), produto)
-                || !ExecutarValidacao(new CategoriaValidation(), produto.Categoria)) return;
+            //if (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
 
             await _produtoRepository.Adicionar(produto);
         }
