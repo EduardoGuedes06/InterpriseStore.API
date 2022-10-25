@@ -84,7 +84,7 @@ public class CategoriaController : BaseController
         if (!ModelState.IsValid) return View(categoriaViewModel);
 
         var categoria = _mapper.Map<Categoria>(await ObterCategoriaPorId(id));
-        await _categoriaService.Adicionar(categoria);
+        await _categoriaService.Atualizar(categoria);
 
         if (!OperacaoValida()) return View(await ObterCategoriaPorId(id));
 
