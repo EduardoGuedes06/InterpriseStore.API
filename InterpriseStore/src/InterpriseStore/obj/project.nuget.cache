@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "2uwf7jAWWPewrIIuKG/yXY6JSfNgtI/EWfaYNkW2IEOOdZT88yIzdjHQy3u7fM5cEHo9EZcJWznioO56ZH34sQ==",
-  "success": true,
+  "dgSpecHash": "zSYGDDSc7WlipdsdRFfzYBvSwN41ZKbU4XeOszyIIdE4LpfNcC6x2QvRqi3DeZbQzBrkNvmAFWlFzL2cujrYBQ==",
+  "success": false,
   "projectFilePath": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\InterpriseStore\\InterpriseStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
@@ -199,5 +199,15 @@
     "C:\\Users\\PC\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\Business\\Business.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
+      "libraryId": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\Business\\Business.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

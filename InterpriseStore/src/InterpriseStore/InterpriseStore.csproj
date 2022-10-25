@@ -33,8 +33,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Business\Business.csproj" />
-    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\interprise.Domain\interprise.Domain.csproj" />
+    <ProjectReference Include="..\interprise.Infra.Data\Interprise.Data.csproj" />
+    <ProjectReference Include="..\interprise.Service\interprise.Service.csproj" />
   </ItemGroup>
 
   <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>

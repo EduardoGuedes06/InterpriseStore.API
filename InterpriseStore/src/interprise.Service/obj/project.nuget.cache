@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WjE2neTinN4GxMR/mh+0h/NWXTSiR1p9eNHoW67J5P5vvlrse475Und5M/j/hTFDR1x3h9McvekEnrkKLigpkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\interprise.Service\\interprise.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
