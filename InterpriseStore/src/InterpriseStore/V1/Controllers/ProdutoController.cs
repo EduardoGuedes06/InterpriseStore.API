@@ -31,6 +31,7 @@ namespace InterpriseStore.V1.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
         {
             var fornecedor = _mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterTodos());

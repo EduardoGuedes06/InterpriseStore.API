@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Revisao.Api": {
+    "InterPriseStore.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
