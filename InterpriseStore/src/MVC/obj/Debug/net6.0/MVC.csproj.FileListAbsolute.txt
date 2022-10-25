@@ -607,3 +607,6 @@ C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\obj\
 C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\obj\Debug\net6.0\MVC.pdb
 C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\obj\Debug\net6.0\MVC.genruntimeconfig.cache
 C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\obj\Debug\net6.0\ref\MVC.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\rick0\Documents\GitHub\InterpriseStore.API\InterpriseStore\src\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll

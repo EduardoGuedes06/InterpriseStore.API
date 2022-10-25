@@ -16,7 +16,7 @@ builder.Configuration
 builder.Services.AddDbContext<MeuDbContext>(options =>
 {
     //MYSQL
-    options.UseMySql("server=localhost;initial catalog=BancoBB;uid=root;pwd=1234",
+    options.UseMySql("server=localhost;initial catalog=ProjetoEnterprise;uid=root;pwd=1234",
     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.31-mysql")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
     //SQLSERVER
     //options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

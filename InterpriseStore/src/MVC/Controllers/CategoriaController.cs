@@ -101,7 +101,6 @@ public class CategoriaController : BaseController
         {
             return NotFound();
         }
-        await _categoriaService.Remover(id);
 
         return View(categoriaViewModel);
 
