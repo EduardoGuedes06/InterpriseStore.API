@@ -64,6 +64,19 @@
             "related": ".xml"
           }
         }
+      },
+      "interprise.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FluentValidation.AspNetCore": "11.2.2"
+        },
+        "compile": {
+          "bin/placeholder/interprise.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/interprise.Domain.dll": {}
+        }
       }
     }
   },
@@ -137,11 +150,17 @@
         "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
+    },
+    "interprise.Domain/1.0.0": {
+      "type": "project",
+      "path": "../interprise.Domain/interprise.Domain.csproj",
+      "msbuildProject": "../interprise.Domain/interprise.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FluentValidation.AspNetCore >= 11.2.2"
+      "FluentValidation.AspNetCore >= 11.2.2",
+      "interprise.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -174,7 +193,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\interprise.Domain\\interprise.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\interprise.Domain\\interprise.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -3857,10 +3857,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\Business\\Business.csproj": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
-          "NuGet.Protocol": "6.3.0"
+          "NuGet.Protocol": "6.3.0",
+          "interprise.Domain": "1.0.0",
+          "interprise.Service": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Interprise.Data.dll": {}
@@ -3886,7 +3887,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "FluentValidation.AspNetCore": "11.2.2"
+          "FluentValidation.AspNetCore": "11.2.2",
+          "interprise.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/interprise.Service.dll": {}
@@ -10579,16 +10581,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Não é possível encontrar o projeto 'C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\Business\\Business.csproj'. Verifique se a referência do projeto é válida e se o arquivo de projeto existe.",
-      "libraryId": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\Business\\Business.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
