@@ -83,8 +83,8 @@ public class ProdutoController : BaseController
 
         if (!ModelState.IsValid) return View(produtoViewModel);
 
-        var produto = _mapper.Map<Produto>(await ObterProdutoPorId(id));
-        await _produtoService.Adicionar(produto);
+        var produto = _mapper.Map<Produto>(produtoViewModel);
+        await _produtoService.Atualizar(produto);
 
         if (!OperacaoValida()) return View(await ObterProdutoPorId(id));
 
@@ -101,7 +101,6 @@ public class ProdutoController : BaseController
         {
             return NotFound();
         }
-        await _produtoService.Remover(id);
 
         return View(produtoViewModel);
 

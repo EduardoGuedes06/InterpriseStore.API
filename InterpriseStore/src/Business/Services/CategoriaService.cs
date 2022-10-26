@@ -32,19 +32,7 @@ public class CategoriaService : BaseService, ICategoriaService
 
     public async Task Remover(Guid id)
     {
-        if (_categoriaRepository.ObterCategoriaProduto(id).Result.Produtos.Any())
-            {
-            Notificar("A categoria possui produtos cadastrados!");
-            return;
-        }
-
-        var categoria = await _categoriaRepository.ObterCategoriaProduto(id);
-
-        if (categoria != null)
-        {
-            await _produtoRepository.Remover(categoria.Id);
-        }
-
+        
         await _categoriaRepository.Remover(id);
     }
 

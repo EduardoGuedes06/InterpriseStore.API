@@ -76,14 +76,14 @@ public class CategoriaController : BaseController
     }
 
     [Route("editar-categoria/{id:guid}")]
-    [HttpPut]
+    [HttpPost]
     public async Task<IActionResult> Edit(Guid id, CategoriaViewModel categoriaViewModel)
     {
         if (id != categoriaViewModel.Id) return NotFound();
 
         if (!ModelState.IsValid) return View(categoriaViewModel);
 
-        var categoria = _mapper.Map<Categoria>(await ObterCategoriaPorId(id));
+        var categoria = _mapper.Map<Categoria>(categoriaViewModel);
         await _categoriaService.Atualizar(categoria);
 
         if (!OperacaoValida()) return View(await ObterCategoriaPorId(id));
@@ -95,15 +95,14 @@ public class CategoriaController : BaseController
     [Route("excluir-categoria/{id:guid}")]
     public async Task<IActionResult> Delete(Guid id)
     {
-        var categoriaViewModel = await ObterCategoriaPorId(id);
+        var categoria = await ObterCategoriaPorId(id);
 
-        if (categoriaViewModel == null)
+        if (categoria == null)
         {
             return NotFound();
         }
 
-        return View(categoriaViewModel);
-
+        return View(categoria);
     }
 
     [Route("excluir-categoria/{id:guid}")]

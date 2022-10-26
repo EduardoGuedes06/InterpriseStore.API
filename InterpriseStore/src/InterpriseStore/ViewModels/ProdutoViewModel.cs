@@ -22,9 +22,7 @@ namespace InterpriseStore.ViewModels
 
         public bool Ativo { get; set; }
 
-        public CategoriaViewModel Categoria { get; set; }
-
-        public IEnumerable<CategoriaViewModel> Categorias { get; set; }
+        public IEnumerable<CategoriaViewModel>? Categorias { get; set; }
         
     }
 }

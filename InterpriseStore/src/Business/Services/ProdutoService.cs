@@ -26,7 +26,7 @@ namespace Business.Services
 
         public async Task Atualizar( Produto produto)
         {
-            if  (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
+            //if  (!ExecutarValidacao(new ProdutoValidation(), produto)) return;
 
 
             await _produtoRepository.Atualizar(produto);
