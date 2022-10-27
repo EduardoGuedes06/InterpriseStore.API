@@ -19,8 +19,9 @@ namespace Business.Models
 
         public int Preco { get; set; }
 
-        public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; }
+
+        //public DateTime DataCadastro = DateTime.Now;
 
         /* EF Relations */
         public Categoria Categoria { get; set; }

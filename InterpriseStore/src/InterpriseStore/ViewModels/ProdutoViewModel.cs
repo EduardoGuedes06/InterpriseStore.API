@@ -4,6 +4,11 @@ namespace InterpriseStore.ViewModels
 {
     public class ProdutoViewModel
     {
+        //public ProdutoViewModel()
+        //{
+        //    DataCadastro = DateTime.Now;
+        //}
+
         [Key]
         public Guid Id { get; set; }
 
@@ -19,9 +24,14 @@ namespace InterpriseStore.ViewModels
 
         [ScaffoldColumn(false)]
         public DateTime DataCadastro { get; set; }
+        
 
         public bool Ativo { get; set; }
 
-        
+        public CategoriaViewModel? Categoria { get; set; }
+
+        public IEnumerable<CategoriaViewModel>? Categorias { get; set; }
+
+
     }
 }

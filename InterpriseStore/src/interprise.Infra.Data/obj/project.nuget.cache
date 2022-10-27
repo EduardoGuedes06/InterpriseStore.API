@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aruRAGPnJ/kMZAVA/Jw12IXg+eGl562XtpaYfPfBCa3VF459JFUyc5l+bJmS78NWzgLUcUyqlxHgMowv6lJ9vQ==",
+  "dgSpecHash": "Pt3oL3Hj7RRsO1WFYACrxes3zTGuZLetOaateGeeR3g40uANZP6PIapaRSyIl1vE4psW18bOvtfTyHlC75dGGA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\interprise.Infra.Data\\Interprise.Data.csproj",
+  "projectFilePath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\interprise.Infra.Data\\Interprise.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",

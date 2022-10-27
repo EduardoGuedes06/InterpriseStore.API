@@ -4,6 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>Revisao.Api</ActiveDebugProfile>
+    <ActiveDebugProfile>InterPriseStore.API</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

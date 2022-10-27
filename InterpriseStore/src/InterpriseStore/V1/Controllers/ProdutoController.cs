@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace InterpriseStore.V1.Controllers
 {
 
-    [Authorize]
+    //[Authorize]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/produtos")]
     public class ProdutoController : MainController
@@ -31,7 +31,7 @@ namespace InterpriseStore.V1.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        //[Authorize]
         public async Task<IEnumerable<ProdutoViewModel>> ObterTodos()
         {
             var fornecedor = _mapper.Map<IEnumerable<ProdutoViewModel>>(await _produtoRepository.ObterTodos());
@@ -40,7 +40,7 @@ namespace InterpriseStore.V1.Controllers
 
 
         [HttpGet("{id:guid}")]
-        [Authorize]
+       // [Authorize]
         public async Task<ActionResult<ProdutoViewModel>> ObterpPorId(Guid id)
         {
             var fornecedor = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
@@ -52,7 +52,7 @@ namespace InterpriseStore.V1.Controllers
 
 
         [HttpPost]
-        [Authorize]
+       // [Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(ProdutoViewModel produtoViewModel)
         {
             if (!ModelState.IsValid) return CostumResponse(ModelState);
@@ -63,7 +63,7 @@ namespace InterpriseStore.V1.Controllers
         }
 
         [HttpPut("{id:guid}")]
-        [Authorize]
+       // [Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Atualizar(Guid id, ProdutoViewModel produtoViewModel)
         {
             if (id != produtoViewModel.Id)
@@ -80,7 +80,7 @@ namespace InterpriseStore.V1.Controllers
         }
 
         [HttpDelete("{id:guid}")]
-        [Authorize]
+       // [Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Excluir(Guid id)
         {
             var produtoviewmodel = _mapper.Map<ProdutoViewModel>(await _produtoRepository.ObterProdutoCategoria(id));
@@ -94,14 +94,14 @@ namespace InterpriseStore.V1.Controllers
         }
 
         [HttpGet("obter-categoria/{id:guid}")]
-        [Authorize]
+       // [Authorize]
         public async Task<CategoriaViewModel> ObterCategoriaPorId(Guid id)
         {
             return _mapper.Map<CategoriaViewModel>(await _categoriaRepository.ObterPorId(id));
         }
 
         [HttpPut("atualizar-categoria/{id:guid}")]
-        [Authorize]
+      //  [Authorize]
         public async Task<IActionResult> AtualizarCategoria(Guid id, CategoriaViewModel categoriaViewModel)
         {
             if (id != categoriaViewModel.Id)

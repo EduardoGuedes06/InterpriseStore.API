@@ -3,8 +3,6 @@ using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
 using Data.context;
 using InterpriseStore.Configuration;
-using Newtonsoft.Json.Serialization;
-using Newtonsoft.Json;
 using Revisao.Api.Configuration;
 using InterpriseStore.Data;
 

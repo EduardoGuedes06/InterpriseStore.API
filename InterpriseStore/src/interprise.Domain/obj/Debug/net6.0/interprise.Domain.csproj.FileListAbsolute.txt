@@ -10,3 +10,15 @@ C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\refint\interprise.Domain.dll
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.pdb
 C:\Projetos\C#\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\ref\interprise.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\bin\Debug\net6.0\interprise.Domain.deps.json
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\bin\Debug\net6.0\interprise.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\bin\Debug\net6.0\interprise.Domain.pdb
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.csproj.AssemblyReference.cache
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.AssemblyInfoInputs.cache
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.AssemblyInfo.cs
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\refint\interprise.Domain.dll
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\interprise.Domain.pdb
+C:\Projetos\C#\PROJETOS 4UCode\Interprise.API\InterpriseStore.API\InterpriseStore\src\interprise.Domain\obj\Debug\net6.0\ref\interprise.Domain.dll

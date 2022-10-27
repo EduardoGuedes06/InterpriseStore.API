@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s9ncumMRxpS4p//tdoNqamvhLGWBYjQEHxPan4iSv7dTGRt7ge2xVID2/2IbSq1K+smGVqdmiHkXTB1GRLb3Yw==",
+  "dgSpecHash": "iIPD3KCjAFlpZjhroUY4NLZSxVJxSLz3Kmr7ZeN0ieQy6ufxoM3wBK1TEHaBZ3DyFb73PcQz6DUgn/J823mLBA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\C#\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\InterpriseStore\\InterpriseStore.csproj",
+  "projectFilePath": "C:\\Projetos\\C#\\PROJETOS 4UCode\\Interprise.API\\InterpriseStore.API\\InterpriseStore\\src\\InterpriseStore\\InterpriseStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

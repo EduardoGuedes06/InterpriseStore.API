@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace InterpriseStore.V1.Controllers
 {
 
-    [Authorize]
+    //[Authorize]
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/categorias")]
     public class CategoriaController : MainController
@@ -27,7 +27,7 @@ namespace InterpriseStore.V1.Controllers
             _mapper = mapper;
         }
 
-        [Authorize]
+       // [Authorize]
         [HttpGet]
         public async Task<IEnumerable<CategoriaViewModel>> ObterTodos()
         {
@@ -37,7 +37,7 @@ namespace InterpriseStore.V1.Controllers
 
 
         [HttpGet("{id:guid}")]
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult<CategoriaViewModel>> ObterPorId(Guid id)
         {
             var categoria = _mapper.Map<CategoriaViewModel>(await _Categoriarepository.ObterCategoriaProduto(id));
@@ -52,7 +52,7 @@ namespace InterpriseStore.V1.Controllers
 
        
         [HttpPost]
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Adicionar(CategoriaViewModel categoriaViewModel)
         {
             if (!ModelState.IsValid) return CostumResponse(ModelState);
@@ -64,7 +64,7 @@ namespace InterpriseStore.V1.Controllers
 
         
         [HttpPut("{id:guid}")]
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult<ProdutoViewModel>> Atualizar(Guid id, CategoriaViewModel categoriaViewModel)
         {
             if (id != categoriaViewModel.Id)
@@ -82,14 +82,14 @@ namespace InterpriseStore.V1.Controllers
 
        
         [HttpDelete("{id:guid}")]
-        [Authorize]
+        //[Authorize]
         public async Task<ActionResult<CategoriaViewModel>> Excluir(Guid id)
         {
             var categoriaViewModel = _mapper.Map<CategoriaViewModel>(await _Categoriarepository.ObterCategoriaProduto(id));
 
             if (categoriaViewModel == null) return NotFound();
 
-            await _Categoriarepository.Remover(id);
+            await _Categoriaservice.Remover(id);
 
             return CostumResponse(categoriaViewModel);
         }
